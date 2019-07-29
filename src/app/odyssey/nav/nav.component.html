@@ -1,0 +1,8 @@
+<div *ngFor="let i of navs;let d = index" class="nav-container">
+  <div class="kind" (click)="expand(d)">{{i.label}}</div>
+  <div *ngIf="i.elements && showKind === d && ifshow" class="">
+    <div *ngFor="let n of i.elements" class="details" (click)="choose(n.id)">
+      {{n.label}}
+    </div>
+  </div>
+</div>

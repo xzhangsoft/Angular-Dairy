@@ -1,0 +1,40 @@
+.container {
+  width: 100vw;
+  height: 64px;
+  line-height: 64px;
+  background-color: rgb(25, 118, 210);
+  color: aliceblue
+}
+
+.title {
+  font-size: 26px;
+  margin: 2vw;
+}
+
+.subtitle {
+  margin: 1vw;
+}
+
+.link {
+  text-decoration: none;
+  text-align: none;
+  color: aliceblue;
+}
+
+.search {
+  box-sizing: border-box;
+  border-radius: 100px;
+  width: 180px;
+  height: 32px;
+  position: absolute;
+  right: 20px;
+  margin-top: 16px;
+  padding-left: 16px;
+  border: none;
+  outline: none;
+  transition: width .4s ease-in-out;
+}
+
+.animation-class {
+  width: 240px;
+}

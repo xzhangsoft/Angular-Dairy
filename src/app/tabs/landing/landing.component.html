@@ -1,0 +1,8 @@
+<p>landing works!</p>
+<!-- <app-child message="'im father message'"></app-child> -->
+<button routerLink="/orders/child">child</button>
+<button routerLink="/orders/child2">child2</button>
+
+<div [@routeAnimation]="getAnimationData(routerOutlet)">
+  <router-outlet #routerOutlet="outlet"></router-outlet>
+</div>
